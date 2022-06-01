@@ -7,7 +7,6 @@ public class Q22 {
 
     public int[] findBuildings(int[] ar) {
         int n = ar.length;
-        int[] rm = new int[n];
         ArrayList<Integer> res = new ArrayList<>();
         int rmax = ar[n - 1];
         res.add(n - 1);
