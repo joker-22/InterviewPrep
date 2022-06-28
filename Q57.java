@@ -25,7 +25,7 @@ public class Q57 {
                     int pari = findParent(parent, i);
                     int parj = findParent(parent, j);
                     if (pari != parj) {
-                        parent[j] = pari;
+                        parent[parj] = pari;
                     }
 
                 }
